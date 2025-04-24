@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Thulasi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#internship">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Thulasi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#internship" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assests/formal.jpg" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Thulasi</h1>
+        <p class="section__text__p2">Front-End Developer</p>
+        <div class="btn-container">
+          <a
+            class="btn btn-color-2"
+            href="./assests/THULASI - RESUME...pdf"
+          >
+            Download CV
+        </a>
+          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button> -->
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assests/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='http://www.linkedin.com/in/thulasi666'"
+          />
+          <img
+            src="./assests/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='http://github.com/thulasi-07'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests/hobbies.png"
+                alt="Hobby icon"
+                class="icon"
+              />
+              <h3><u>Hobbies</u></h3>
+              <br>
+              <br>
+              <ul><li><b><span>TRAVELLING</span></b>
+                  <br /></li>
+                  <br>
+                  
+                  <li><b><span>COOKING</span></b>
+                  <br /></li>
+                  <br>
+                  
+                  <li><b><span> HISTORY  ENTHUSIAST </span></b>
+                  <br /></li>
+                  <br>
+                  
+                  <li> <b><span>VOCALIZING </span></b>
+                  <br /></li>
+                  <br>
+  
+                  <li><b><span>DANCING</span></b>
+                  <br />
+                  <p> I hold the
+                    prestigious title of 'Vidushi' in
+                    Bharatanatyam.</p>
+                   </li>
+                </p>
+              </ul>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3><u>Education</u></h3>
+              <br>
+              <!-- <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p> -->
+              <ul>
+                <li>
+                  <b><span>MASTER OF COMPUTER APPLICATION</span></b>
+                  <br />
+                  St Joseph Engineering College
+                  <br />
+                  2023 - 2025
+                  <br />
+                  8.04 CGPA
+                </li>
+                <br />
+                <!-- <br> -->
+                <li>
+                  <b><span>BACHELOR OF SCIENCE</span></b>
+                  <br />
+                  Canara College
+                  <br />
+                  2020 - 2023
+                  <br />
+                  7.48 CGPA
+                </li>
+                <br />
+                <!-- <br> -->
+                <li>
+                  <b><span>JAIN PU COLLEGE, MOODBIDRI</span></b>
+                  <br />
+                  SCIENCE (PCMB)
+                  <br />
+                  2018 - 2020
+                  <br />
+                  74 %
+                </li>
+                <br />
+                <!-- <br> -->
+                <li>
+                  <b><span>JAIN HIGH SCHOOL, MOODBIDRI</span></b>
+                  <br />
+                  2016 - 2018
+                  <br />
+                  89.28 %
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-container">
+            <p><b>
+              As a passionate MCA student with a strong interest in front-end
+              development, I am dedicated to building visually appealing and
+              user-friendly web interfaces. I am eager to leverage my technical
+              skills and continuously expand my knowledge in a dynamic and
+              supportive environment. My goal is to secure a role that will
+              allow me to grow professionally and make a meaningful contribution
+              through my work.
+            </b></p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Java</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Time Management</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Team Work</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Creativity</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+    </section>
+
+    <section id="internship">
+      <p class="section__text__p1">Step Into My</p>
+      <h1 class="title">Internship Timeline</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title"> Web Development Internship at VINYASA Web & Graphic Solutions</h2>
+            <div class="text-container">
+              <p><b>
+                During my one-month(Oct 28,2024 - Nov 28,2024) internship at Vinyasa Web & Graphic Solutions, I have been honing my skills as a web developer, primarily working with React. This experience has allowed me to deepen my understanding of front-end development, with a focus on creating dynamic and responsive user interfaces. I have collaborated on various projects, gaining valuable hands-on experience in developing web applications, debugging issues, and implementing new features. This internship has significantly boosted my knowledge of React, web development best practices, and teamwork in a professional setting. It has also provided me with insights into the entire web development lifecycle, from conceptualization to deployment.
+              </b></p>
+            </div>
+            <b></b>
+            <!-- <h2 class="experience-sub-title project-title"> Projects</h2> -->
+            <p><b>
+              As part of my project work, I contributed to a team of six members in developing a Myntra Clone, where we recreated the homepage UI using HTML, CSS and Tailwind CSS. This project enhanced my understanding of responsive design, layout structuring, and teamwork in a development environment. In addition, I independently built a To-Do List App using React.js and Tailwind CSS, focusing on core functionalities like adding, deleting, marking tasks as complete, and filtering. This solo project helped me strengthen my grasp of component-based architecture, state management, and applying utility-first CSS to build a clean, responsive, and modern user interface.
+            </b>
+
+            </p>
+          </b>
+            
+            </div>
+          </div>
+
+    </section>
+
+
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/newpet.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">A WEB APPLICATION FOR PET ADOPTION</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=`http://github.com/thulasi-07/petadoption'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='github.com/thulasi-07/petadoption'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/netflix.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">NETFLIX FRONT-END CLONE</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='http://github.com/thulasi-07/Netflix-clone'"
+              >
+                Github
+            </a>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='//github.com/thulasi-07/Netflix-clone'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/q bank generation system.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">QUESTION PAPER GENERATION SYSTEM</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/thulasi-07/hackthonSjec'"
+              >
+                Github
+            </a>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests/ToDo list.jpeg"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">ToDo - List</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/thulasi-07/ToDoList'"
+            >
+              Github
+          </a>
+        </div>
+      </div>
+
+        
+
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div> -->
+            <!-- <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assests/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:examplemail@gmail.com"
+              >thulasipanndeshwara02@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assests/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="http://www.linkedin.com/in/thulasi666">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#internship">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Thulasi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
